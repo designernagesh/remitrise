@@ -3243,8 +3243,8 @@ select {
             .feature-item{
                 .feature-icon{
                     overflow: visible;
-                    width: 55px;
-                    height: 55px;
+                    width: 42px;
+                    height: 42px;
                     top: 13px;
                     background: transparent;
                     i{
@@ -5912,8 +5912,8 @@ article{
         position: absolute;
         top: auto;
         left: auto;
-        width: 54px;
-        height: 54px;
+        width: 48px;
+        height: 48px;
         @include transform(rotate(45deg));
         background: $clr_rock;
         border-radius: 7px;

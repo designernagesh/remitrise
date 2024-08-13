@@ -569,16 +569,16 @@ select {
 }
 
 .loader div:nth-child(1) {
-  background: rgba(0, 169, 164, 0.7);
+  background: rgba(255, 24, 56, 0.7);
 }
 
 .loader div:nth-child(2) {
-  background: rgba(0, 169, 164, 0.7);
+  background: rgba(255, 24, 56, 0.7);
   animation-delay: 0.2s;
 }
 
 .loader div:nth-child(3) {
-  background: rgba(0, 169, 164, 0.7);
+  background: rgba(255, 24, 56, 0.7);
   animation-delay: 0.4s;
 }
 
@@ -3621,8 +3621,8 @@ select {
 }
 .why-choose-wrap .wh-content .feature-item-wrap .feature-item .feature-icon {
   overflow: visible;
-  width: 55px;
-  height: 55px;
+  width: 42px;
+  height: 42px;
   top: 13px;
   background: transparent;
 }
@@ -6103,8 +6103,8 @@ article {
   position: absolute;
   top: auto;
   left: auto;
-  width: 54px;
-  height: 54px;
+  width: 48px;
+  height: 48px;
   transform: rotate(45deg);
   background: #030734;
   border-radius: 7px;
@@ -6347,6 +6347,7 @@ article {
 }
 
 .copyright-text {
+  border: 2px solid red;
   padding: 17px 10px 20px;
   text-align: left;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -6369,9 +6370,17 @@ article {
 }
 .copyright-text .footer-links {
   text-align: right;
+  color: #fff;
+}
+.copyright-text .footer-links span {
+  display: inline-block;
+  margin: 0 5px;
 }
 .copyright-text .footer-links a {
   color: #fff;
+}
+.copyright-text .footer-links a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 767px) {
