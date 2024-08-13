@@ -740,13 +740,13 @@ select {
     animation: bouncing 1.4s linear infinite;
 }
 .loader div:last-child{ margin: 0; }
-.loader div:nth-child(1){ background: rgba(0, 169, 164,0.7); }
+.loader div:nth-child(1){ background: rgba(255, 24, 56,0.7); }
 .loader div:nth-child(2){
-    background: rgba(0, 169, 164,0.7);
+    background: rgba(255, 24, 56,0.7);
     animation-delay: 0.2s;
 }
 .loader div:nth-child(3){
-    background: rgba(0, 169, 164,0.7);
+    background: rgba(255, 24, 56,0.7);
     animation-delay: 0.4s;
 }
 @keyframes bouncing{
@@ -767,9 +767,9 @@ select {
         animation-timing-function: ease-out;
     }
 }
-/*---------------------------------
+/*-------------------------------
        Button & Link CSS
-----------------------------------*/
+-------------------------------*/
 .btn {
     display: inline-block;
     line-height: 26px;

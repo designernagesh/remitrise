@@ -600,9 +600,9 @@ select {
     animation-timing-function: ease-out;
   }
 }
-/*---------------------------------
+/*-------------------------------
        Button & Link CSS
-----------------------------------*/
+-------------------------------*/
 .btn {
   display: inline-block;
   line-height: 26px;
