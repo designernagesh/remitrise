@@ -212,7 +212,7 @@
   color: #fff;
 }
 .copyright-text .footer-links a:hover {
-  text-decoration: underline;
+  color: #FF3838;
 }
 
 @media only screen and (max-width: 767px) {

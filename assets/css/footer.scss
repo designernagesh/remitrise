@@ -316,7 +316,7 @@ $clr_downriver:#0C1148;
         a {
             color: $clr_white;
             &:hover{
-                text-decoration: underline;
+                color: $clr_red;
             }
         }
     }

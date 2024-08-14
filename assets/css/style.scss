@@ -1871,13 +1871,16 @@ select {
                 margin: 0 0 10px;
                 display: block;
             }
-            input {
+            input, textarea, select {
                 border-radius: 5px;
                 background:$clr_albastor;
                 border: none;
                 width: 100%;
                 height: 60px;
                 padding: 10px 15px;
+            }
+            textarea {
+                height: 100px;
             }
         }
         .btn {
@@ -3431,7 +3434,7 @@ select {
                 .feature-title{
                     span{
                         border: 1px solid rgba(255, 255, 255,0.6);
-                        background-color: rgba(255, 255, 255,0.4);
+                        background-color: rgba(255, 255, 255,1);
                         &:after,
                         &:before{
                             background-color: $clr_offwhite;
@@ -5181,7 +5184,7 @@ select {
             text-align: left;
             align-items: center;
             border-bottom: none;
-            padding:20px 65px 20px 20px;
+            padding:12px 65px 12px 20px;
             @include transition(0.4s);
             background-color: transparent;
             border: 1px solid rgba(0, 0, 0, 0.1);
