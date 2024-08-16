@@ -3925,6 +3925,11 @@ select {
         }
     }
 }
+.border-radius{
+    img {
+        border-radius: 20px 50px
+    }
+}
 .loan-wrap{
     .service-card{
         &.style2{
