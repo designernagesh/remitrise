@@ -391,6 +391,9 @@ input:checked + .slider:before {
   }
 }
 @media only screen and (max-width: 1199px) {
+  .theme-dark .contact-card.style1 {
+    background-color: #0E1C1F;
+  }
   .theme-dark .header-wrap .header-top,
   .theme-dark .header-wrap.style3 .header-bottom {
     background-color: #000;

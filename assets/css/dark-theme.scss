@@ -471,6 +471,11 @@ input:checked + .slider:before {
 }
 @media only screen and (max-width:1199px) {
     .theme-dark{
+        .contact-card {
+            &.style1{
+                background-color: $clr_aztech;
+            }
+        }
         .header-wrap .header-top,
         .header-wrap.style3 .header-bottom{
             background-color: $clr_black;
