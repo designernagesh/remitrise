@@ -417,7 +417,11 @@ select {
 /*---------------------------------
           Mixins & Animation CSS
 -----------------------------------*/
-.footer-wrap .footer-widget .social-link, .comment-item-wrap .comment-item, .post-author, .wp-block-quote, .post-navigation, .contact-item, .counter-card-wrap, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card .client-info-area, .service-card.style4 .service-info .service-title, .service-card.style3, .service-card.style2 .service-info .service-title, .currency-card, .feature-card .feature-info .feature-title, .feature-item-wrap .feature-item, .hero-wrap.style3 .hero-content .hero-btn .play-video, .hero-wrap.style3 .hero-content .hero-btn, .pp-post-item, .schedule-widget ul li, .select-lang .navbar-language .dropdown-toggle, .search-area, .header-wrap .header-top .header-top-right, .owl-carousel .owl-nav, .project-info-widget .project-share, .project-info-widget .project-info-list li, .testimonial-card-thumb .client-info-wrap, .feature-wrap .feature-content .feature-item-wrap .feature-item, .contact-item .contact-icon, .service-card.style3 .service-icon, .feature-card.style3 .feature-info .feature-title span, .feature-item-wrap .feature-item .feature-icon, .category-box.style2 ul li a span, .content-feature-list.style1 li span, .search-area, .social-profile.style1 li a, .social-profile.style2 li a, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+.footer-wrap .footer-widget .social-link, .comment-item-wrap .comment-item, .post-author, .wp-block-quote, .post-navigation, .contact-item, .counter-card-wrap, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card .client-info-area, .service-card.style4 .service-info .service-title,
+.contact-card.style4 .service-info .service-title, .service-card.style3,
+.contact-card.style3, .service-card.style2 .service-info .service-title,
+.contact-card.style2 .service-info .service-title, .currency-card, .feature-card .feature-info .feature-title, .feature-item-wrap .feature-item, .hero-wrap.style3 .hero-content .hero-btn .play-video, .hero-wrap.style3 .hero-content .hero-btn, .pp-post-item, .schedule-widget ul li, .select-lang .navbar-language .dropdown-toggle, .search-area, .header-wrap .header-top .header-top-right, .owl-carousel .owl-nav, .project-info-widget .project-share, .project-info-widget .project-info-list li, .testimonial-card-thumb .client-info-wrap, .feature-wrap .feature-content .feature-item-wrap .feature-item, .contact-item .contact-icon, .service-card.style3 .service-icon,
+.contact-card.style3 .service-icon, .feature-card.style3 .feature-info .feature-title span, .feature-item-wrap .feature-item .feature-icon, .category-box.style2 ul li a span, .content-feature-list.style1 li span, .search-area, .social-profile.style1 li a, .social-profile.style2 li a, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
   display: flex;
   flex-wrap: wrap;
 }
@@ -427,7 +431,8 @@ select {
   flex-wrap: wrap;
 }
 
-.contact-item .contact-icon, .service-card.style3 .service-icon, .feature-card.style3 .feature-info .feature-title span, .feature-item-wrap .feature-item .feature-icon, .category-box.style2 ul li a span, .content-feature-list.style1 li span, .search-area, .social-profile.style1 li a, .social-profile.style2 li a, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+.contact-item .contact-icon, .service-card.style3 .service-icon,
+.contact-card.style3 .service-icon, .feature-card.style3 .feature-info .feature-title span, .feature-item-wrap .feature-item .feature-icon, .category-box.style2 ul li a span, .content-feature-list.style1 li span, .search-area, .social-profile.style1 li a, .social-profile.style2 li a, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
   flex-direction: column;
   justify-content: center;
 }
@@ -437,7 +442,9 @@ select {
   justify-content: center;
 }
 
-.footer-wrap .footer-widget .social-link, .post-navigation, .testimonial-card-thumb .client-info-wrap, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card .client-info-area, .feature-wrap .feature-content .feature-item-wrap .feature-item, .service-card.style4 .service-info .service-title, .service-card.style2 .service-info .service-title, .feature-card .feature-info .feature-title, .hero-wrap.style3 .hero-content .hero-btn .play-video, .hero-wrap.style3 .hero-content .hero-btn, .schedule-widget ul li, .project-info-widget .project-info-list li, .select-lang .navbar-language .dropdown-toggle, .header-wrap .header-top .header-top-right {
+.footer-wrap .footer-widget .social-link, .post-navigation, .testimonial-card-thumb .client-info-wrap, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card .client-info-area, .feature-wrap .feature-content .feature-item-wrap .feature-item, .service-card.style4 .service-info .service-title,
+.contact-card.style4 .service-info .service-title, .service-card.style2 .service-info .service-title,
+.contact-card.style2 .service-info .service-title, .feature-card .feature-info .feature-title, .hero-wrap.style3 .hero-content .hero-btn .play-video, .hero-wrap.style3 .hero-content .hero-btn, .schedule-widget ul li, .project-info-widget .project-info-list li, .select-lang .navbar-language .dropdown-toggle, .header-wrap .header-top .header-top-right {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
@@ -1283,17 +1290,24 @@ select {
   color: #fff;
 }
 
-.footer-wrap .footer-widget .social-link, .comment-item-wrap .comment-item, .post-author, .wp-block-quote, .post-navigation, .contact-item, .counter-card-wrap, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card .client-info-area, .service-card.style4 .service-info .service-title, .service-card.style3, .service-card.style2 .service-info .service-title, .currency-card, .feature-card .feature-info .feature-title, .feature-item-wrap .feature-item, .hero-wrap.style3 .hero-content .hero-btn .play-video, .hero-wrap.style3 .hero-content .hero-btn, .pp-post-item, .schedule-widget ul li, .select-lang .navbar-language .dropdown-toggle, .search-area, .header-wrap .header-top .header-top-right, .contact-item .contact-icon, .service-card.style3 .service-icon, .feature-card.style3 .feature-info .feature-title span, .feature-item-wrap .feature-item .feature-icon, .category-box.style2 ul li a span, .content-feature-list.style1 li span, .testimonial-card-thumb .client-info-wrap, .feature-wrap .feature-content .feature-item-wrap .feature-item, .project-info-widget .project-info-list li, .project-info-widget .project-share, .owl-carousel .owl-nav, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .social-profile.style1 li a, .social-profile.style2 li a {
+.footer-wrap .footer-widget .social-link, .comment-item-wrap .comment-item, .post-author, .wp-block-quote, .post-navigation, .contact-item, .counter-card-wrap, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card .client-info-area, .service-card.style4 .service-info .service-title,
+.contact-card.style4 .service-info .service-title, .service-card.style3,
+.contact-card.style3, .service-card.style2 .service-info .service-title,
+.contact-card.style2 .service-info .service-title, .currency-card, .feature-card .feature-info .feature-title, .feature-item-wrap .feature-item, .hero-wrap.style3 .hero-content .hero-btn .play-video, .hero-wrap.style3 .hero-content .hero-btn, .pp-post-item, .schedule-widget ul li, .select-lang .navbar-language .dropdown-toggle, .search-area, .header-wrap .header-top .header-top-right, .contact-item .contact-icon, .service-card.style3 .service-icon,
+.contact-card.style3 .service-icon, .feature-card.style3 .feature-info .feature-title span, .feature-item-wrap .feature-item .feature-icon, .category-box.style2 ul li a span, .content-feature-list.style1 li span, .testimonial-card-thumb .client-info-wrap, .feature-wrap .feature-content .feature-item-wrap .feature-item, .project-info-widget .project-info-list li, .project-info-widget .project-share, .owl-carousel .owl-nav, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .social-profile.style1 li a, .social-profile.style2 li a {
   display: flex;
   flex-wrap: wrap;
 }
 
-.contact-item .contact-icon, .service-card.style3 .service-icon, .feature-card.style3 .feature-info .feature-title span, .feature-item-wrap .feature-item .feature-icon, .category-box.style2 ul li a span, .content-feature-list.style1 li span, .search-area, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .social-profile.style1 li a, .social-profile.style2 li a {
+.contact-item .contact-icon, .service-card.style3 .service-icon,
+.contact-card.style3 .service-icon, .feature-card.style3 .feature-info .feature-title span, .feature-item-wrap .feature-item .feature-icon, .category-box.style2 ul li a span, .content-feature-list.style1 li span, .search-area, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .social-profile.style1 li a, .social-profile.style2 li a {
   flex-direction: column;
   justify-content: center;
 }
 
-.footer-wrap .footer-widget .social-link, .post-navigation, .testimonial-card-thumb .client-info-wrap, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card .client-info-area, .feature-wrap .feature-content .feature-item-wrap .feature-item, .service-card.style4 .service-info .service-title, .service-card.style2 .service-info .service-title, .feature-card .feature-info .feature-title, .hero-wrap.style3 .hero-content .hero-btn .play-video, .hero-wrap.style3 .hero-content .hero-btn, .schedule-widget ul li, .project-info-widget .project-info-list li, .select-lang .navbar-language .dropdown-toggle, .header-wrap .header-top .header-top-right {
+.footer-wrap .footer-widget .social-link, .post-navigation, .testimonial-card-thumb .client-info-wrap, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card .client-info-area, .feature-wrap .feature-content .feature-item-wrap .feature-item, .service-card.style4 .service-info .service-title,
+.contact-card.style4 .service-info .service-title, .service-card.style2 .service-info .service-title,
+.contact-card.style2 .service-info .service-title, .feature-card .feature-info .feature-title, .hero-wrap.style3 .hero-content .hero-btn .play-video, .hero-wrap.style3 .hero-content .hero-btn, .schedule-widget ul li, .project-info-widget .project-info-list li, .select-lang .navbar-language .dropdown-toggle, .header-wrap .header-top .header-top-right {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
@@ -1699,7 +1713,7 @@ select {
   }
   .header-wrap .mobile-sidebar i {
     font-size: 24px;
-    color: #00A9A4;
+    color: #005795;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -1765,7 +1779,7 @@ select {
     color: #00A9A4;
   }
   .header-wrap.style1 .mobile-menu a {
-    background: #00A9A4;
+    background: #005795;
   }
   .header-wrap.style1 .mobile-menu a i {
     color: #fff;
@@ -3884,13 +3898,16 @@ select {
   z-index: -1;
 }
 
-.service-card {
+.service-card,
+.contact-card {
   margin: 0 0 25px;
 }
-.service-card h3 {
+.service-card h3,
+.contact-card h3 {
   font-size: 22px;
 }
-.service-card.style1 {
+.service-card.style1,
+.contact-card.style1 {
   box-shadow: 0px 0px 25px rgba(85, 85, 85, 0.1);
   padding: 22px 25px 22px;
   margin-bottom: 25px;
@@ -3899,7 +3916,8 @@ select {
   position: relative;
   z-index: 1;
 }
-.service-card.style1:after {
+.service-card.style1:after,
+.contact-card.style1:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -3911,82 +3929,103 @@ select {
   background-color: #030734;
   transition: 0.4s;
 }
-.service-card.style1 .service-icon {
+.service-card.style1 .service-icon,
+.contact-card.style1 .service-icon {
   margin-bottom: 20px;
   display: block;
 }
-.service-card.style1 .service-icon img {
+.service-card.style1 .service-icon img,
+.contact-card.style1 .service-icon img {
   max-width: 40px;
 }
-.service-card.style1 h3 {
+.service-card.style1 h3,
+.contact-card.style1 h3 {
   margin-bottom: 12px;
   transition: 0.4s;
 }
-.service-card.style1 h3 a:hover {
+.service-card.style1 h3 a:hover,
+.contact-card.style1 h3 a:hover {
   color: #00A9A4;
 }
-.service-card.style1 p {
+.service-card.style1 p,
+.contact-card.style1 p {
   margin: 0;
   transition: 0.4s;
 }
-.service-card.style1:hover:after {
+.service-card.style1:hover:after,
+.contact-card.style1:hover:after {
   height: 100%;
 }
-.service-card.style1:hover h3, .service-card.style1:hover a {
+.service-card.style1:hover h3, .service-card.style1:hover a,
+.contact-card.style1:hover h3,
+.contact-card.style1:hover a {
   color: #fff;
 }
-.service-card.style1:hover h3 a {
+.service-card.style1:hover h3 a,
+.contact-card.style1:hover h3 a {
   color: #fff;
 }
-.service-card.style1:hover p {
+.service-card.style1:hover p,
+.contact-card.style1:hover p {
   color: #fff;
 }
-.service-card.style1:hover .feature-icon i {
+.service-card.style1:hover .feature-icon i,
+.contact-card.style1:hover .feature-icon i {
   color: #030734;
   z-index: 1;
 }
-.service-card.style1:hover .feature-icon:before {
+.service-card.style1:hover .feature-icon:before,
+.contact-card.style1:hover .feature-icon:before {
   background: #fff;
   z-index: 1;
 }
-.service-card.style2 {
+.service-card.style2,
+.contact-card.style2 {
   position: relative;
   background-color: #0C1148;
   z-index: 1;
   border-radius: 5px;
   transition: 0.4s;
 }
-.service-card.style2 .service-info {
+.service-card.style2 .service-info,
+.contact-card.style2 .service-info {
   padding: 25px 25px 22px;
 }
-.service-card.style2 .service-info .service-title {
+.service-card.style2 .service-info .service-title,
+.contact-card.style2 .service-info .service-title {
   margin-bottom: 10px;
 }
-.service-card.style2 .service-info .service-title h3 {
+.service-card.style2 .service-info .service-title h3,
+.contact-card.style2 .service-info .service-title h3 {
   width: calc(100% - 70px);
   margin-left: 20px;
   transition: 0.4s;
 }
-.service-card.style2 .service-info .service-title h3 a {
+.service-card.style2 .service-info .service-title h3 a,
+.contact-card.style2 .service-info .service-title h3 a {
   color: #fff;
 }
-.service-card.style2 .service-info .service-title span {
+.service-card.style2 .service-info .service-title span,
+.contact-card.style2 .service-info .service-title span {
   width: 50px;
   top: 0;
 }
-.service-card.style2 .service-info .service-title span i {
+.service-card.style2 .service-info .service-title span i,
+.contact-card.style2 .service-info .service-title span i {
   font-size: 45px;
   line-height: 0.8;
   color: #00A9A4;
   margin: 0 auto;
   transition: 0.4s;
 }
-.service-card.style2 .service-info p {
+.service-card.style2 .service-info p,
+.contact-card.style2 .service-info p {
   color: #fff;
   margin-bottom: 12px;
   transition: 0.4s;
 }
-.service-card.style2:after {
+.service-card.style2:after,
+.contact-card.style2:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -3998,23 +4037,28 @@ select {
   background-color: #00A9A4;
   transition: 0.4s;
 }
-.service-card.style2:hover:after {
+.service-card.style2:hover:after,
+.contact-card.style2:hover:after {
   height: 100%;
 }
-.service-card.style2:hover .service-info .service-title span i {
+.service-card.style2:hover .service-info .service-title span i,
+.contact-card.style2:hover .service-info .service-title span i {
   color: #fff;
 }
-.service-card.style2:hover .service-info .link {
+.service-card.style2:hover .service-info .link,
+.contact-card.style2:hover .service-info .link {
   color: #fff;
 }
-.service-card.style3 {
+.service-card.style3,
+.contact-card.style3 {
   background-color: #161942;
   padding: 25px 25px 22px;
   border-radius: 10px;
   position: relative;
   z-index: 1;
 }
-.service-card.style3:after {
+.service-card.style3:after,
+.contact-card.style3:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -4026,7 +4070,8 @@ select {
   background-color: #fff;
   transition: 0.4s;
 }
-.service-card.style3 .service-icon {
+.service-card.style3 .service-icon,
+.contact-card.style3 .service-icon {
   width: 80px;
   height: 80px;
   border-radius: 9px;
@@ -4035,14 +4080,17 @@ select {
   top: 2px;
   transition: 0.4s;
 }
-.service-card.style3 .service-icon i {
+.service-card.style3 .service-icon i,
+.contact-card.style3 .service-icon i {
   font-size: 40px;
   line-height: 0.8;
   margin: 0 auto;
   color: rgba(255, 255, 255, 0.9);
   transition: 0.4s;
 }
-.service-card.style3 .service-icon:after, .service-card.style3 .service-icon:before {
+.service-card.style3 .service-icon:after, .service-card.style3 .service-icon:before,
+.contact-card.style3 .service-icon:after,
+.contact-card.style3 .service-icon:before {
   position: absolute;
   content: "";
   width: 8px;
@@ -4051,50 +4099,64 @@ select {
   background-color: rgba(255, 255, 255, 0.8);
   transition: 0.4s;
 }
-.service-card.style3 .service-icon:before {
+.service-card.style3 .service-icon:before,
+.contact-card.style3 .service-icon:before {
   top: 10px;
   left: -4px;
   animation: slide_up 3000ms infinite ease-in-out;
 }
-.service-card.style3 .service-icon:after {
+.service-card.style3 .service-icon:after,
+.contact-card.style3 .service-icon:after {
   bottom: 10px;
   right: -4px;
 }
-.service-card.style3 .service-info {
+.service-card.style3 .service-info,
+.contact-card.style3 .service-info {
   width: calc(100% - 105px);
   margin-left: 25px;
 }
-.service-card.style3 .service-info h3 {
+.service-card.style3 .service-info h3,
+.contact-card.style3 .service-info h3 {
   margin-bottom: 12px;
 }
-.service-card.style3 .service-info h3 a {
+.service-card.style3 .service-info h3 a,
+.contact-card.style3 .service-info h3 a {
   color: #fff;
   transition: 0.4s;
 }
-.service-card.style3 .service-info p {
+.service-card.style3 .service-info p,
+.contact-card.style3 .service-info p {
   margin: 0;
   color: rgba(255, 255, 255, 0.8);
   transition: 0.4s;
 }
-.service-card.style3:hover:after {
+.service-card.style3:hover:after,
+.contact-card.style3:hover:after {
   height: 100%;
 }
-.service-card.style3:hover .service-info h3 a {
+.service-card.style3:hover .service-info h3 a,
+.contact-card.style3:hover .service-info h3 a {
   color: #030734;
 }
-.service-card.style3:hover .service-info p {
+.service-card.style3:hover .service-info p,
+.contact-card.style3:hover .service-info p {
   color: #666666;
 }
-.service-card.style3:hover .service-icon {
+.service-card.style3:hover .service-icon,
+.contact-card.style3:hover .service-icon {
   border: 1px solid rgba(0, 87, 149, 0.8);
 }
-.service-card.style3:hover .service-icon i {
+.service-card.style3:hover .service-icon i,
+.contact-card.style3:hover .service-icon i {
   color: #005795;
 }
-.service-card.style3:hover .service-icon:after, .service-card.style3:hover .service-icon:before {
+.service-card.style3:hover .service-icon:after, .service-card.style3:hover .service-icon:before,
+.contact-card.style3:hover .service-icon:after,
+.contact-card.style3:hover .service-icon:before {
   background-color: #005795;
 }
-.service-card.style4 {
+.service-card.style4,
+.contact-card.style4 {
   position: relative;
   background-color: #fff;
   z-index: 1;
@@ -4102,26 +4164,32 @@ select {
   transition: 0.4s;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.07);
 }
-.service-card.style4 .service-info {
+.service-card.style4 .service-info,
+.contact-card.style4 .service-info {
   padding: 35px 25px 22px;
 }
-.service-card.style4 .service-info .service-title {
+.service-card.style4 .service-info .service-title,
+.contact-card.style4 .service-info .service-title {
   margin-bottom: 10px;
 }
-.service-card.style4 .service-info .service-title h3 {
+.service-card.style4 .service-info .service-title h3,
+.contact-card.style4 .service-info .service-title h3 {
   width: calc(100% - 70px);
   margin-left: 20px;
   transition: 0.4s;
 }
-.service-card.style4 .service-info .service-title h3 a {
+.service-card.style4 .service-info .service-title h3 a,
+.contact-card.style4 .service-info .service-title h3 a {
   color: #030734;
 }
-.service-card.style4 .service-info .service-title span {
+.service-card.style4 .service-info .service-title span,
+.contact-card.style4 .service-info .service-title span {
   width: 50px;
   top: 0;
   position: relative;
 }
-.service-card.style4 .service-info .service-title span:after {
+.service-card.style4 .service-info .service-title span:after,
+.contact-card.style4 .service-info .service-title span:after {
   position: absolute;
   top: -10px;
   left: 45%;
@@ -4132,18 +4200,21 @@ select {
   transform: translateX(-50%);
   background-color: rgba(0, 169, 164, 0.15);
 }
-.service-card.style4 .service-info .service-title span i {
+.service-card.style4 .service-info .service-title span i,
+.contact-card.style4 .service-info .service-title span i {
   font-size: 45px;
   line-height: 0.8;
   color: #00A9A4;
   margin: 0 auto;
   transition: 0.4s;
 }
-.service-card.style4 .service-info p {
+.service-card.style4 .service-info p,
+.contact-card.style4 .service-info p {
   margin-bottom: 12px;
   transition: 0.4s;
 }
-.service-card.style4:after {
+.service-card.style4:after,
+.contact-card.style4:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -4155,28 +4226,53 @@ select {
   background-color: #030734;
   transition: 0.4s;
 }
-.service-card.style4:hover:after {
+.service-card.style4:hover:after,
+.contact-card.style4:hover:after {
   height: 100%;
 }
-.service-card.style4:hover .service-info .service-title span:after {
+.service-card.style4:hover .service-info .service-title span:after,
+.contact-card.style4:hover .service-info .service-title span:after {
   background-color: rgba(255, 255, 255, 0.15);
 }
-.service-card.style4:hover .service-info .service-title span i {
+.service-card.style4:hover .service-info .service-title span i,
+.contact-card.style4:hover .service-info .service-title span i {
   color: #fff;
 }
-.service-card.style4:hover .service-info .service-title h3 a {
+.service-card.style4:hover .service-info .service-title h3 a,
+.contact-card.style4:hover .service-info .service-title h3 a {
   color: #fff;
 }
-.service-card.style4:hover .service-info .link {
+.service-card.style4:hover .service-info .link,
+.contact-card.style4:hover .service-info .link {
   color: #fff;
 }
-.service-card.style4:hover .service-info p {
+.service-card.style4:hover .service-info p,
+.contact-card.style4:hover .service-info p {
   color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-card .font-large {
+  font-size: 32px;
+  font-weight: 700;
+}
+.contact-card.style1 h3 {
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+.contact-card .feature-icon {
+  margin-left: -27px;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
 }
 
 .service-slider-one.owl-carousel .owl-dots {
   margin-top: 10px;
   text-align: center;
+}
+
+.header-top.open .contact-info i {
+  color: #000 !important;
 }
 
 .loan-wrap .service-card.style2 {
@@ -6164,17 +6260,24 @@ article {
   color: #000;
 }
 
-.footer-wrap .footer-widget .social-link, .owl-carousel .owl-nav, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .social-profile.style1 li a, .social-profile.style2 li a, .header-wrap .header-top .header-top-right, .search-area, .select-lang .navbar-language .dropdown-toggle, .content-feature-list.style1 li span, .category-box.style2 ul li a span, .project-info-widget .project-info-list li, .project-info-widget .project-share, .schedule-widget ul li, .pp-post-item, .hero-wrap.style3 .hero-content .hero-btn, .hero-wrap.style3 .hero-content .hero-btn .play-video, .feature-item-wrap .feature-item, .feature-item-wrap .feature-item .feature-icon, .feature-card .feature-info .feature-title, .feature-card.style3 .feature-info .feature-title span, .currency-card, .service-card.style2 .service-info .service-title, .service-card.style3, .service-card.style3 .service-icon, .service-card.style4 .service-info .service-title, .feature-wrap .feature-content .feature-item-wrap .feature-item, .testimonial-card .client-info-area, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card-thumb .client-info-wrap, .counter-card-wrap, .contact-item, .contact-item .contact-icon, .post-navigation, .wp-block-quote, .post-author, .comment-item-wrap .comment-item {
+.footer-wrap .footer-widget .social-link, .owl-carousel .owl-nav, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .social-profile.style1 li a, .social-profile.style2 li a, .header-wrap .header-top .header-top-right, .search-area, .select-lang .navbar-language .dropdown-toggle, .content-feature-list.style1 li span, .category-box.style2 ul li a span, .project-info-widget .project-info-list li, .project-info-widget .project-share, .schedule-widget ul li, .pp-post-item, .hero-wrap.style3 .hero-content .hero-btn, .hero-wrap.style3 .hero-content .hero-btn .play-video, .feature-item-wrap .feature-item, .feature-item-wrap .feature-item .feature-icon, .feature-card .feature-info .feature-title, .feature-card.style3 .feature-info .feature-title span, .currency-card, .service-card.style2 .service-info .service-title,
+.contact-card.style2 .service-info .service-title, .service-card.style3,
+.contact-card.style3, .service-card.style3 .service-icon,
+.contact-card.style3 .service-icon, .service-card.style4 .service-info .service-title,
+.contact-card.style4 .service-info .service-title, .feature-wrap .feature-content .feature-item-wrap .feature-item, .testimonial-card .client-info-area, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card-thumb .client-info-wrap, .counter-card-wrap, .contact-item, .contact-item .contact-icon, .post-navigation, .wp-block-quote, .post-author, .comment-item-wrap .comment-item {
   display: flex;
   flex-wrap: wrap;
 }
 
-.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .social-profile.style1 li a, .social-profile.style2 li a, .search-area, .content-feature-list.style1 li span, .category-box.style2 ul li a span, .feature-item-wrap .feature-item .feature-icon, .feature-card.style3 .feature-info .feature-title span, .service-card.style3 .service-icon, .contact-item .contact-icon {
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .social-profile.style1 li a, .social-profile.style2 li a, .search-area, .content-feature-list.style1 li span, .category-box.style2 ul li a span, .feature-item-wrap .feature-item .feature-icon, .feature-card.style3 .feature-info .feature-title span, .service-card.style3 .service-icon,
+.contact-card.style3 .service-icon, .contact-item .contact-icon {
   flex-direction: column;
   justify-content: center;
 }
 
-.footer-wrap .footer-widget .social-link, .header-wrap .header-top .header-top-right, .select-lang .navbar-language .dropdown-toggle, .project-info-widget .project-info-list li, .schedule-widget ul li, .hero-wrap.style3 .hero-content .hero-btn, .hero-wrap.style3 .hero-content .hero-btn .play-video, .feature-card .feature-info .feature-title, .service-card.style2 .service-info .service-title, .service-card.style4 .service-info .service-title, .feature-wrap .feature-content .feature-item-wrap .feature-item, .testimonial-card .client-info-area, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card-thumb .client-info-wrap, .post-navigation {
+.footer-wrap .footer-widget .social-link, .header-wrap .header-top .header-top-right, .select-lang .navbar-language .dropdown-toggle, .project-info-widget .project-info-list li, .schedule-widget ul li, .hero-wrap.style3 .hero-content .hero-btn, .hero-wrap.style3 .hero-content .hero-btn .play-video, .feature-card .feature-info .feature-title, .service-card.style2 .service-info .service-title,
+.contact-card.style2 .service-info .service-title, .service-card.style4 .service-info .service-title,
+.contact-card.style4 .service-info .service-title, .feature-wrap .feature-content .feature-item-wrap .feature-item, .testimonial-card .client-info-area, .testimonial-card .client-info-area .client-info-wrap, .testimonial-card-thumb .client-info-wrap, .post-navigation {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;

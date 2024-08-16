@@ -3556,7 +3556,8 @@ select {
         }
     }
 }
-.service-card  {
+.service-card,
+.contact-card {
     margin: 0 0 25px;
     h3{
         font-size: 22px;
@@ -3889,11 +3890,38 @@ select {
         }
     }
 }
+.contact-card {
+    .font-large {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    &.style1 {
+        h3 {
+            margin-top: 80px;
+            margin-bottom: 0;
+        }
+    }
+    .feature-icon {
+        margin-left: -27px;
+        left: 50%;
+        position: absolute;
+        margin-top: 30px;
+    }
+}
 .service-slider-one{
     &.owl-carousel{
         .owl-dots{
             margin-top: 10px;
             text-align: center;
+        }
+    }
+}
+.header-top{
+    &.open {
+        .contact-info {
+            i {
+                color: $clr_black !important;
+            }
         }
     }
 }

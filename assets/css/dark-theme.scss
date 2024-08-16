@@ -206,7 +206,7 @@ input:checked + .slider:before {
         background: $clr_cod;
     }
     h1,
-    // h2,
+    h2,
     h3,
     h4,
     h5,
@@ -351,6 +351,111 @@ input:checked + .slider:before {
         border-top: none;
     }
 }
+
+.theme-dark {
+    .hero-slide-item {
+        h1, p {
+            color: $clr_black !important;
+        }
+    }
+    .hero-wrap {
+        .hero-content {
+            span {
+                color: $clr_red !important;        
+            }
+        }
+    }
+    .breadcrumb-title {
+        h2 {
+            color: $clr_black !important;
+        }
+    }
+    .breadcrumb-menu {
+        li {
+            a{
+                color: $clr_black !important;
+            }
+        }
+    }
+    .packages {
+        .check-fill {
+            color: $clr_rock !important;
+        }
+    }
+    .accordion-item{
+        .accordion-header{
+            .accordion-button{
+                &.collapsed {
+                    span {
+                        background-color: $clr_white !important;
+                        i {
+                            color: $clr_black !important;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+
+    .why-choose-wrap {
+        .wh-content{
+            .feature-item-wrap{
+                .feature-item {
+                    .feature-icon{
+                        &:before {
+                           background: $clr_white;
+                        }
+                        i {
+                           color: $clr_black;
+                        }
+                    }
+                    &:hover {
+                        i {
+                           color: $clr_white;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+
+    .feature-icon {
+        &:before {
+            background-color: $clr_white;
+        }
+        i {
+            color: $clr_black;
+        }
+    }
+
+    .features-list {
+        li {
+            span {
+                background-color: $clr_white;
+            }
+        }
+    }
+
+    .social-profile{
+        &.style1{
+            li{
+                a{
+                    background-color: $clr_white;
+                    &:hover {
+                        background-color: $clr_red;
+                        i {
+                            color: $clr_white;
+                        }
+                    }
+                    i {
+                        color: $clr_black;
+                    }
+                }
+            } 
+        } 
+    }
+}
+
 @media only screen and (max-width:767px) {
     .switch-theme-mode {
         right: 13px;

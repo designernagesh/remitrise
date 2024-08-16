@@ -414,7 +414,7 @@
   }
   .header-wrap .mobile-sidebar i {
     font-size: 24px;
-    color: #00A9A4;
+    color: #005795;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -480,7 +480,7 @@
     color: #00A9A4;
   }
   .header-wrap.style1 .mobile-menu a {
-    background: #00A9A4;
+    background: #005795;
   }
   .header-wrap.style1 .mobile-menu a i {
     color: #fff;
