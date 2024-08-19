@@ -130,6 +130,11 @@ input:checked + .slider:before {
 }
 
 .theme-dark {
+    .contact-card {
+        &.style1{
+            background-color: $clr_aztech;
+        }
+    }
     .dpt-100{
         padding-top: 100px;
     }
@@ -287,11 +292,11 @@ input:checked + .slider:before {
     .footer-wrap .footer-widget .newsletter-form input,
     #cmt-form .comment-form .form-group input,
     #cmt-form .comment-form .form-group textarea{
-        background-color: transparent;
+        // background-color: transparent;
         border: 1px solid rgba(255, 255, 255, 0.2);
-        color: $clr_white;
+        color: $clr_black;
         &::placeholder{
-            color: $clr_white;
+            color: $clr_black;
             opacity: 1;
         }
     }
@@ -471,11 +476,6 @@ input:checked + .slider:before {
 }
 @media only screen and (max-width:1199px) {
     .theme-dark{
-        .contact-card {
-            &.style1{
-                background-color: $clr_aztech;
-            }
-        }
         .header-wrap .header-top,
         .header-wrap.style3 .header-bottom{
             background-color: $clr_black;

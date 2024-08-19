@@ -94,6 +94,9 @@ input:checked + .slider:before {
   background-color: #00A9A4;
 }
 
+.theme-dark .contact-card.style1 {
+  background-color: #0E1C1F;
+}
 .theme-dark .dpt-100 {
   padding-top: 100px;
 }
@@ -248,12 +251,11 @@ input:checked + .slider:before {
 .theme-dark .footer-wrap .footer-widget .newsletter-form input,
 .theme-dark #cmt-form .comment-form .form-group input,
 .theme-dark #cmt-form .comment-form .form-group textarea {
-  background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #fff;
+  color: #000;
 }
 .theme-dark #contactForm .form-group input::-moz-placeholder, .theme-dark #contactForm .form-group textarea::-moz-placeholder, .theme-dark .search-box .form-group input::-moz-placeholder, .theme-dark .account-form .form-group input::-moz-placeholder, .theme-dark .account-form .form-group textarea::-moz-placeholder, .theme-dark .login-form-wrap .login-body .form-group input::-moz-placeholder, .theme-dark .service-charge-wrap .charge-form .form-group input::-moz-placeholder, .theme-dark .footer-wrap .footer-widget .newsletter-form input::-moz-placeholder, .theme-dark #cmt-form .comment-form .form-group input::-moz-placeholder, .theme-dark #cmt-form .comment-form .form-group textarea::-moz-placeholder {
-  color: #fff;
+  color: #000;
   opacity: 1;
 }
 .theme-dark #contactForm .form-group input::placeholder,
@@ -266,7 +268,7 @@ input:checked + .slider:before {
 .theme-dark .footer-wrap .footer-widget .newsletter-form input::placeholder,
 .theme-dark #cmt-form .comment-form .form-group input::placeholder,
 .theme-dark #cmt-form .comment-form .form-group textarea::placeholder {
-  color: #fff;
+  color: #000;
   opacity: 1;
 }
 .theme-dark .account-form .form-group select {
@@ -391,9 +393,6 @@ input:checked + .slider:before {
   }
 }
 @media only screen and (max-width: 1199px) {
-  .theme-dark .contact-card.style1 {
-    background-color: #0E1C1F;
-  }
   .theme-dark .header-wrap .header-top,
   .theme-dark .header-wrap.style3 .header-bottom {
     background-color: #000;
