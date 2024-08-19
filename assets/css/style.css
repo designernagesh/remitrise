@@ -2380,7 +2380,6 @@ select {
  ----------------------------------------*/
 .login-form-wrap {
   padding: 30px;
-  margin-bottom: 25px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
 }
 .login-form-wrap .login-header {
